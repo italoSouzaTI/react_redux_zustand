@@ -1,30 +1,48 @@
-# React + TypeScript + Vite
+##Eeact + Redux + Zustand
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##🎥
 
-Currently, two official plugins are available:
+https://github.com/rocketseat-creators-program/react-native-highcharts/assets/52186505/10b36755-4334-4e96-b20b-39806e88423e
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Projeto construído para entendimento da diferença de construção e suas peculiaridades entre **Redux e Zustand**.
+**Redux** uma das principais lib de gerenciamento de estado e muito robusto e complexo de gerenciar.
+**Zustand** veio para facilitar o gerenciamento de estado sendo menos verboso e tendo pontes mais simples de implementar.
 
-## Expanding the ESLint configuration
+Nesse projeto além de cada uma das libs citadas acima onde o **redux** se localiza na **[branch master](https://github.com/italoSouzaTI/react_redux_zustand/tree/master)** e **Zustand** se localiza na **[branch Zustand]()**. Foi utilizado **tailwindcss** para estilizar com alguns ensinamentos de interação sem duplicidade de código, foi utilizado o **radix-ui** para utilizar o collapside e seus métodos . **Axios** para manipulação da conexão com api local utilizando arquivo JSON, para subir o servidor local foi utilizado **json-server** e **React-player** um reproduzir uma variedade de URLs no exemplo pegamos do youtube.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+##🛠️Ferramentas
+| Nome/link |
+| ------------- |
+| [Redux](https://redux.js.org/introduction/getting-started) |
+| [axios](https://axios-http.com/ptbr/docs/intro) |
+| [lucide-react](https://lucide.dev/guide/packages/lucide-react) |
+| [react-player](https://www.npmjs.com/package/react-player) |
+| [react-redux](https://react-redux.js.org/) |
+| [json-server](https://www.npmjs.com/package/json-server) |
+| [tailwind-scrollbar](https://www.npmjs.com/package/tailwind-scrollbar) |
+| [tailwindcss](https://tailwindcss.com/docs/guides/vite) |
 
-- Configure the top-level `parserOptions` property like this:
+##🖥️Iniciando projeto
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+#Baixe o projeto na sua máquina:
+git clone link_do_repo
+
+#Abra no seu editor execute:
+npm i
+
+ #Ligando o servidor:
+ npm run server
+
+ #Inicializando aplicação:
+ npm run dev
+
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Contato
+
+[💻 Linkedin](https://www.linkedin.com/in/italoasouzati/)
+
+📫 **italoasouzat.i@gmail.com**
+
+By 📱💻❤ **Ítalo Araújo Souza**

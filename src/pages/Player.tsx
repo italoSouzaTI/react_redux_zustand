@@ -28,6 +28,7 @@ export function Player() {
                 <div className="flex h-full items-center justify-center">
                     <Loader className="w-10 h-10 text-zinc-400 animate-spin" />
                 </div>
+                <span className=" ml-2 text-zinc-50">Carregando lista de videos....</span>
             </div>
         );
     }

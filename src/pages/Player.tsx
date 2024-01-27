@@ -38,7 +38,7 @@ export function Player() {
                 <div className="flex items-center justify-between">
                     {/* Header */}
                     <Header />
-                    <button className="flex items-center gap-2 rounded bg-violet-500 px-3 py-2 text-sm font-medium text-white hover:bg-violet-600">
+                    <button className="flex items-center gap-2 rounded bg-gray-500 px-3 py-2 text-sm font-medium text-white hover:bg-gray-600 cursor-not-allowed">
                         <MessageCircle className="w-4 h-4" />
                         Deixar feedback
                     </button>

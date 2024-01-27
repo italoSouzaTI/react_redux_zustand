@@ -1,6 +1,7 @@
 import { PayloadAction, createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import { useAppSelector } from "..";
 import { api } from "../../core/service";
+import Course from "../../core/mockService/server.json";
 
 interface Course {
     id: number;
@@ -30,9 +31,12 @@ const initialState: PlayerState = {
 };
 
 export const loadCourse = createAsyncThunk("player/load", async () => {
-    const response = await api.get("courses/1");
-    console.log("loadCourse", response);
-    return response.data;
+    // const response = await api.get("courses/1");
+    // console.log("loadCourse", response);
+    // return response.data;
+    const response = Course;
+    // console.log("aqui", response.courses[0]);
+    return response.courses[0];
 });
 
 export const playerSlice = createSlice({

@@ -1,6 +1,6 @@
 import { PayloadAction, createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import { useAppSelector } from "..";
-import { api } from "../../core/service";
+// import { api } from "../../core/service";
 import Course from "../../core/mockService/server.json";
 
 interface Course {

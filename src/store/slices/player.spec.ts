@@ -23,7 +23,7 @@ const exampleState: PlayerState = {
             },
         ],
     },
-    // isLoading: false,
+    isLoading: false,
     currentModuleIndex: 0,
     currentLessonIndex: 0,
 };
